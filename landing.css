@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-background {
+    background-color: chartreuse;
+}
+
+.landing {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+    background-color: #76f6ad;
+}
+
+.top-color {
+    border-left: 2px solid rgb(140, 5, 5);
+    border-right: 2px solid rgb(121, 7, 7);
+    background-color: rgb(252, 248, 6);
+}
+
+.mybtn:hover {
+    background-color: red;
+}
+
+.top-mail {
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    background-color: #4797d9db;
+    box-shadow: 2px 4px 4px rgba(40, 66, 40, 0.829);
+}
+
+nav ul {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 26px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.984);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li:hover {
+    color: rgb(123, 0, 0);
+    font-size: 18px;
+}
+
+.leftheader {
+    font-size: 30px;
+    color: #000000;
+    font-family: Agbalumo;
+    font-style: italic;
+    margin-left: 2%;
+}
+
+.rightheader{
+    margin-left: 7%;
+}
+
+.firstclass {
+    padding: 21px;
+    margin: 0 44px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.first-about {
+    padding: 22px;
+    margin: 61px 163px;
+}
+
+.first-image img{
+    margin-right: 152px;
+}
+
+main hr {
+    height: 0px;
+    border: 1px solid cadetblue;
+    margin: 8px 110px;
+    background: rgb(207 212 227);
+}
+
+.secondclass {
+    padding: 21px;
+    margin: 0 44px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.second-about {
+    padding: 22px;
+    margin: 61px 163px;
+}
+
+.second-image img{
+    margin-left: 152px;
+}
+
+.thirdclass{
+    padding: 21px;
+    margin: 0 44px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.third-about{
+    padding: 22px;
+    margin: 61px 163px;
+}
+
+.third-image img{
+    margin-right: 152px;
+}
+
+.forthclass{
+    padding: 24px;
+    margin: 0px;
+    background-color: #bedbf5c7;
+}
+
+.forth-about{
+    text-align: center;
+}
+
+.forth-image img{
+    margin-top: 2%;
+    margin-left: 29%;
+    height: 310px;
+    width: 679px;
+}
+
+footer{
+    margin: 0 72px;
+    justify-content: normal;
+    display: flex;
+    background-color: #eae2e21a;
+}
+
+.head{
+    color: #053661;
+    margin-right: 315px;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-head{
+    font-size: 32px;
+    color: #000000;
+    font-family: Agbalumo;
+    font-style: italic;
+    margin-left: 2%;
+}
+
+.footer-main{
+    margin: 35px 30px;
+}
+
+.footer-image img{
+    border-radius: 62px;
+    margin: 15px;
+    margin-left: 4%;
+    height: 208px;
+    width: 420px;
+}
+
+.footer-items{
+    justify-content: normal;
+    display: flex;
+    margin: 51px 130px;
+}
+
+.slider{
+    background-image: url("https://c.wallhere.com/photos/b6/a0/2560x1440_px_Desktopography_forest_Hot_Air_Balloons_mountain_space-658634.jpg!d");
+    height: 600px;
+    opacity: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
