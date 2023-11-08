@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="alignment">
+        <div class="showcase">
+            <form>
+                <div>
+                    <input type="text" name="display" id="source" style="width: 522px; text-align: end; font-size: 30px; box-shadow: inset 4px 4px 8px grey, 4px 4px 4px #2b2b2c;">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="calculate(this)">
+                    <input type="button" value="Del" onclick="calculate(this)">
+                    <input type="button" value="(" onclick="calculate(this)">
+                    <input type="button" value=")" onclick="calculate(this)">
+                    <input type="button" value="%" onclick="calculate(this)">
+                    <input type="button" value="*" onclick="calculate(this)">
+                </div>
+                <div>
+                    <input type="button" value="sin" onclick="calculate(this)">
+                    <input type="button" value="π" onclick="calculate(this)">
+                    <input type="button" value="7" onclick="calculate(this)">
+                    <input type="button" value="8" onclick="calculate(this)">
+                    <input type="button" value="9" onclick="calculate(this)">
+                    <input type="button" value="-" onclick="calculate(this)">
+                </div>
+                <div>
+                    <input type="button" value="cos" onclick="calculate(this)">
+                    <input type="button" value="!" onclick="calculate(this)">
+                    <input type="button" value="4" onclick="calculate(this)">
+                    <input type="button" value="5" onclick="calculate(this)">
+                    <input type="button" value="6" onclick="calculate(this)">
+                    <input type="button" value="+" onclick="calculate(this)">
+                </div>
+                <div>
+                    <input type="button" value="tan" onclick="calculate(this)"> 
+                    <input type="button" value="√" onclick="calculate(this)">
+                    <input type="button" value="1" onclick="calculate(this)">
+                    <input type="button" value="2" onclick="calculate(this)">
+                    <input type="button" value="3" onclick="calculate(this)">
+                    <input type="button" value="/" onclick="calculate(this) ">
+                </div>
+                <div>
+                    <input type="button" value="log" onclick="calculate(this)">
+                    <input type="button" value="^" onclick="calculate(this)">
+                    <input type="button" value="." onclick="calculate(this)">
+                    <input type="button" value="0" onclick="calculate(this)">
+                    <input type="button" value="=" onclick="calculate(this)" style="width: 164px; background-color: green; color:white; border: solid black; font-size: 25px;">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
